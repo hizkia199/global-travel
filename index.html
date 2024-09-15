@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toba Travel Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+    <a href="#" class="navbar-logo">
+        <!-- FontAwesome Travel Icon: Globe with Plane -->
+        <i class="fas fa-globe"></i>
+    </a>
+
+            <a href="#home" class="nav-link">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#destinations" class="nav-link">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Destinations</span>
+            </a>
+            <a href="#bookings" class="nav-link">
+                <i class="fas fa-ship"></i>
+                <span>Bookings</span>
+            </a>
+        </div>
+
+        <div class="navbar-center">
+            <input type="text" id="search-bar" placeholder="Search destinations, trips...">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <div class="navbar-right">
+            <a href="#" class="nav-link">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
+            </a>
+            <div class="dark-mode-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeSwitch">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+<!-- Home Section with Ocean-Themed Background -->
+<section id="home" class="home">
+    <div class="home-overlay"></div>
+    <div class="home-content">
+        <h1>Discover the Beauty of Toba</h1>
+        <p>Explore serene oceans and stunning destinations. Your next adventure awaits!</p>
+        <a href="#" class="btn explore-btn">
+            <i class="fas fa-map-marker-alt"></i> Start Your Journey
+        </a>
+    </div>
+</section>
+
+<section id="destinations" class="destinations">
+    <h2 class="section-title">Top Destinations</h2>
+    <div class="destination-grid">
+        <!-- Larger Item on the Left -->
+        <div class="destination-item large">
+            <div class="destination-img-container">
+                <img src="img/coast.png" alt="Beach Paradise" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Beach Paradise</h3>
+                        <p>Relax on golden sands with crystal-clear waters.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Smaller Elements on the Top -->
+        <div class="destination-item top-item">
+            <div class="destination-img-container">
+                <img src="img/mountain.png" alt="Mountain Escape" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Mountain Escape</h3>
+                        <p>Hike through breathtaking mountain views.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-item top-item">
+            <div class="destination-img-container">
+                <img src="img/city.png" alt="City Adventures" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>City Adventures</h3>
+                        <p>Explore bustling cities full of culture.</p>
+                        <a href="#" class="btn destination-btn"><i class="fas fa-compass"></i> Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Larger Elements at the Bottom -->
+        <div class="destination-item wide">
+            <div class="destination-img-container">
+                <img src="img/forest.png" alt="Forest Retreat" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Forest Retreat</h3>
+                        <p>Reconnect with nature in serene forests.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-item wide">
+            <div class="destination-img-container">
+                <img src="img/lake.png" alt="Lake Escape" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Lake Escape</h3>
+                        <p>Relax by peaceful lakes and enjoy water activities.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-item bottom-item">
+            <div class="destination-img-container">
+                <img src="img/desert.png" alt="Desert Adventure" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Desert Adventure</h3>
+                        <p>Explore vast desert landscapes with camels.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-item bottom-item">
+            <div class="destination-img-container">
+                <img src="img/poultyr.png" alt="Island Getaway" class="destination-img">
+                <div class="overlay">
+                    <div class="destination-info">
+                        <h3>Island Getaway</h3>
+                        <p>Escape to secluded islands with pristine beaches.</p>
+                        <a href="#" class="btn destination-btn">
+                            <i class="fas fa-compass"></i> Explore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section id="bookings" class="bookings">
+    <h2 class="section-title">Your Bookings</h2>
+    <div class="bookings-grid">
+        <!-- Booking Card 1 -->
+        <div class="booking-card">
+            <img src="img/hotel stay.png" alt="Hotel Stay" class="booking-img">
+            <div class="booking-details">
+                <h3>Luxury Beach Resort</h3>
+                <p>4 Nights | Ocean View Room</p>
+                <p><strong>Check-in:</strong> Sept 20, 2024</p>
+                <p><strong>Check-out:</strong> Sept 24, 2024</p>
+                <a href="#" class="btn booking-btn">
+                    <i class="fas fa-info-circle"></i> View Details
+                </a>
+            </div>
+        </div>
+
+        <!-- Booking Card 2 -->
+        <div class="booking-card">
+            <img src="img/cruise.jpg" alt="Cruise" class="booking-img">
+            <div class="booking-details">
+                <h3>Caribbean Cruise</h3>
+                <p>7 Nights | All-Inclusive</p>
+                <p><strong>Departure:</strong> Oct 15, 2024</p>
+                <p><strong>Return:</strong> Oct 22, 2024</p>
+                <a href="#" class="btn booking-btn">
+                    <i class="fas fa-ship"></i> View Details
+                </a>
+            </div>
+        </div>
+
+        <!-- Booking Card 3 -->
+        <div class="booking-card">
+            <img src="img/adventure.jpg" alt="Adventure Trip" class="booking-img">
+            <div class="booking-details">
+                <h3>Mountain Adventure</h3>
+                <p>3 Days | Guided Hike</p>
+                <p><strong>Start Date:</strong> Nov 10, 2024</p>
+                <p><strong>End Date:</strong> Nov 12, 2024</p>
+                <a href="#" class="btn booking-btn">
+                    <i class="fas fa-hiking"></i> View Details
+                </a>
+            </div>
+        </div>
+
+        <!-- Booking Card 4: Lake Toba -->
+        <div class="booking-card">
+            <img src="img/lake toba stay.jpg" alt="Lake Toba Stay" class="booking-img">
+            <div class="booking-details">
+                <h3>Lake Toba Retreat</h3>
+                <p>5 Nights | Lakeside Villa</p>
+                <p><strong>Check-in:</strong> Dec 1, 2024</p>
+                <p><strong>Check-out:</strong> Dec 6, 2024</p>
+                <a href="#" class="btn booking-btn">
+                    <i class="fas fa-water"></i> View Details
+                </a>
+            </div>
+        </div>
+
+        <!-- Booking Card 5: Special Offer -->
+        <div class="booking-card special-offer-card">
+            <img src="img/special offer.jpg" alt="Special Offer - Maldives" class="booking-img">
+            <div class="booking-details">
+                <h3>Maldives Getaway</h3>
+                <p>Exclusive 20% Off</p>
+                <p><strong>Offer Expires:</strong> Oct 30, 2024</p>
+                <a href="#" class="btn booking-btn special-offer-btn">
+                    <i class="fas fa-gift"></i> View Offer
+                </a>
+            </div>
+        </div>
+
+        <!-- Booking Card 6: Special Offer -->
+        <div class="booking-card special-offer-card">
+            <img src="img/special offer.jpg" alt="Special Offer - Paris" class="booking-img">
+            <div class="booking-details">
+                <h3>Paris Winter Escape</h3>
+                <p>Limited-Time 15% Discount</p>
+                <p><strong>Offer Expires:</strong> Nov 15, 2024</p>
+                <a href="#" class="btn booking-btn special-offer-btn">
+                    <i class="fas fa-gift"></i> View Offer
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Social Media Links Section -->
+        <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Details Section -->
+        <div class="footer-section contact-details">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Toba St, Lake Toba, Indonesia</p>
+            <p><i class="fas fa-phone"></i> +62 123 4567</p>
+            <p><i class="fas fa-envelope"></i> contact@tobatravel.com</p>
+        </div>
+
+<!-- Newsletter Subscription Section -->
+<div class="footer-section newsletter">
+    <div class="newsletter-header">
+        <h3>Subscribe to Our Newsletter</h3>
+        <i class="fas fa-envelope newsletter-icon"></i>
+    </div>
+    <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+        <button type="submit" class="newsletter-btn">
+            <i class="fas fa-paper-plane"></i> Subscribe
+        </button>
+    </form>
+    <p class="newsletter-info">Stay updated with our latest travel tips and offers!</p>
+</div>
+
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Toba Travel. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
